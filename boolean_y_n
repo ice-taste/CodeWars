@@ -1,0 +1,6 @@
+# returns 'yes' or 'no' dependent on boolean given
+def bool_to_word(boolean):
+    if boolean == 1:
+        return str("Yes")
+    else: 
+        return str("No")
