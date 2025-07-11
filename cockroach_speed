@@ -1,0 +1,5 @@
+#calculates speed of a cockroach
+
+def cockroach_speed(s):
+    sum = s * 100000 / 3600
+    return int(sum)
