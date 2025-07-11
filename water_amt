@@ -1,0 +1,6 @@
+#calculates water in liters per hour, rounded down
+
+def litres(time):
+    b = 0.5 * time
+    round(b)
+    return int(b)
