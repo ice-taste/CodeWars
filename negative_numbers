@@ -1,0 +1,7 @@
+#returns a negative number regardless of input
+def make_negative(number):
+    print(number)
+    if number < 0: 
+        return number
+    else: 
+        return number * -1
