@@ -1,0 +1,8 @@
+#given an array of integres, determines if the sum of integers are odd or even
+def odd_or_even(arr):
+    x = sum(arr)
+    if x %2 == 0: 
+        return "even"
+    else:
+        return "odd"
+    pass
