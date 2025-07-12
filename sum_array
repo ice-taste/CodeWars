@@ -1,0 +1,8 @@
+#given an array, sums the array. Exlcudes repeat values in the array
+def unique_sum(lst):
+    k = set(lst)
+    s = sum(k)
+    if not k:
+        return None
+    else: 
+        return s
