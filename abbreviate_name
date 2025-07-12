@@ -1,0 +1,5 @@
+#takes a name and splices it to return first and last initial in uppercase
+def abbrev_name(name):
+    s = name.split()
+    initial = s[0][0] + "." + s[1][0]
+    return initial.upper()
