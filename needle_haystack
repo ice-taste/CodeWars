@@ -1,0 +1,5 @@
+#finds index of an array and outputs position in the array 
+def find_needle(haystack):
+    found = haystack.index('needle')
+    if found == True: 
+        print(f"found the needle at position {found}")
