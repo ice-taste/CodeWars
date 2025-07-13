@@ -1,0 +1,14 @@
+#Write a function which calculates the average of the numbers in a given array.
+
+#Note: Empty arrays should return 0.
+
+
+def find_average(numbers):
+    total = sum(numbers)
+    div = len(numbers)
+    if total == 0: 
+        return 0
+    else: 
+        avg = total / div
+        return avg 
+    pass
