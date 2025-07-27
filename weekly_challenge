@@ -1,0 +1,21 @@
+#weekly Codewars Kata challenge
+#I have a cat and a dog.
+#I got them at the same time as kitten/puppy. That was humanYears years ago.
+#Return their respective ages now as [humanYears,catYears,dogYears]
+
+
+
+
+def human_years_cat_years_dog_years(human_years):
+
+    if human_years == 1:
+        catYears = 15
+        dogYears = 15
+    elif human_years == 2:
+        catYears = 15 + 9 
+        dogYears = 15 + 9
+    elif human_years >= 3:
+        catYears = 15 + 9 + ((human_years - 2) * 4) 
+        dogYears = 15 + 9 + ((human_years -2 ) * 5)
+        
+    return [human_years,catYears,dogYears]
