@@ -1,0 +1,5 @@
+#Your task is to write a function that takes a string and return a new string with all vowels removed.
+
+def disemvowel(string_):
+    rm = 'aeiouAEIOU'
+    return ''.join([c for c in string_ if c not in rm])
