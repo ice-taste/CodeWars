@@ -1,0 +1,6 @@
+#return area and volume of a box in an array
+
+def get_size(w,h,d):
+    volume = w * h * d
+    area = (2 * (w * d)) + (2 * (d * h)) + (2 * (w * h))
+    return [area, volume]
