@@ -1,0 +1,9 @@
+# checks if an input is a perfect square
+
+import math
+def is_square(n):
+    if n >= 0: 
+        r = math.isqrt(n)
+        return r * r == n
+    else: 
+        return False
