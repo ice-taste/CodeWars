@@ -1,0 +1,9 @@
+
+#Given a positive integer N, return the largest integer k such that 3^k < N.
+
+#calculates k by dividing ln of N by ln of 3 then subtracting 1. Returns a decimal value and rounds up to the ceiling so .77 = 1, .50 = 1, etc 
+import math
+def largest_power(N):
+    k = math.ceil(math.log(N) / math.log(3) - 1)
+    return k 
+    pass
